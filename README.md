@@ -2,6 +2,14 @@
 
 A free, offline tournament desk for dominoes with rotating partners, individual standings, team playoffs, and a Hawaii-themed TV display.
 
+## Use the hosted app
+
+Open [Hawaiian domino](https://finol-digital.github.io/dominoes-tournament/) in your browser. For the display screen, use [TV view](https://finol-digital.github.io/dominoes-tournament/?tv=1).
+
+The hosted app saves registrations and results only in your browser. To move an existing local event online, export a backup from the local tracker and restore it on the hosted app. Use the same browser/profile on the same computer for the organizer and TV tabs; other devices do not share the event.
+
+GitHub Pages publishes the root of the `main` branch. The `.nojekyll` file serves the app as static files, and `index.html` opens the standalone tracker while retaining the TV setting. Rebuild `Domino-Night.html` with `python build.py` after source changes, then commit and push to publish updates.
+
 ## Start the tracker
 
 Download or clone this repository. Open **Domino-Night.html** in Chrome or Edge. The file contains the entire app, including its artwork; no account, subscription, installation, or internet connection is required.
