@@ -1,0 +1,65 @@
+DOMINO NIGHT - EVENT TRACKER
+
+OPEN THE APP
+On this Windows laptop, double-click "Open Tracker.cmd".
+It starts a local-only helper and opens the tracker in your default browser.
+If Windows blocks the launcher, open "Domino-Night.html" directly in Chrome or Edge.
+The HTML file is self-contained and works offline; no account or subscription is needed.
+Always use the same opening method, browser, and file location during the event.
+The localhost address and a directly opened file have separate saved browser data.
+Use Export backup / Restore backup to move between them.
+
+REGISTRATION
+1. Set the event name and available table count (default: six).
+2. Adjust the number of players (8-48), then click Apply count.
+3. Replace Player 1, Player 2, etc. with names, one per line. Use unique names.
+4. Click Save names. When registration closes, click Generate 3 rounds.
+5. Print all rounds and the updated rules from inside the app.
+After generation you may rename players on their original lines, but you cannot
+add/remove/reorder participants without starting a new event. Do not shuffle the
+name list after play begins: results belong to the corresponding roster slots.
+
+PLAY AND SCORE
+Every match is a race to 100 or more. Enter the final score for both teams.
+Overshoots count in full; both teammates receive the entire team score.
+Each round has floor(players / 4) matches. Any remaining players receive byes.
+Byes rotate evenly. Standings use win percentage, then average points per played match.
+If more matches are needed than tables available, play the numbered waves in order.
+Finish every match in one round before starting the next.
+
+TV DISPLAY
+Use a second display connected to this laptop by HDMI or screen casting.
+Click Open TV display, move that browser window to the TV, and select Full screen.
+The display updates from the organizer tab and cycles through standings pages every 12 seconds.
+Keep both tabs in the same browser/profile on this computer.
+This is not a networked phone-scoring app. A separate device does not receive live data.
+If your browser blocks a popup, allow this local app's TV window.
+If direct-file tabs do not sync, export a backup, use Open Tracker.cmd, restore the
+backup there, and open the TV view from that version.
+
+PLAYOFFS
+Finish all three qualifying rounds. Review all results in Standings.
+Publicly click Draw ties & create playoffs. Exact ties are randomly resolved once;
+the saved draw record appears in Standings. Refreshing never repeats the draw.
+Top eight: semifinal A is (1+8) vs (4+5); semifinal B is (2+7) vs (3+6).
+The two winners play the final, with the same partners and scores starting at zero.
+Correcting a qualifying result after the cut clears playoffs after a confirmation.
+Correcting a semifinal rebuilds the final and may clear its result after confirmation.
+
+BACKUPS
+Keep only one organizer tab open. TV tabs are read-only.
+Export a backup after each round and after the final. Keep it outside the browser.
+The app automatically downloads a backup before the playoff cut or resetting results.
+Use Restore backup to recover or move the event to another computer/browser.
+CSV exports are for viewing standings; they cannot restore an event.
+Do not use private/incognito browsing for the event or clear browser site data.
+
+RULES UPDATE
+The Rules & help screen is the current version, including approved rotating byes
+and percentage/average ranking. It replaces the earlier wins/total-points handout.
+The host must still announce the specific domino variant and house gameplay rules.
+
+FILES
+Domino-Night.html is the complete standalone app.
+Other files provide its optional local launcher, source, and automated checks.
+Registration instructions are also in README.md and docs/registration.md.

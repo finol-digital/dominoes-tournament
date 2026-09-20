@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+.venv/
+node_modules/
+.DS_Store
+Thumbs.db
+domino-night-backup-*.json
+domino-night-standings*.csv
+backups/
+*.log
+*.zip
