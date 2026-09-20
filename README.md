@@ -19,7 +19,7 @@ Registration is managed by the organizer on one computer. Players do not need ac
 3. Enter the final **Player count** (8–48), then click **Apply count**. Alternatively, paste the whole roster into the names field, one player per line.
 4. Replace placeholders with names. Each name must be unique; add a last initial where needed.
 5. Click **Save names**. You can repeat these steps while people arrive.
-6. Once registration closes, click **Generate 3 rounds** and confirm the headcount. This locks the roster size and creates the table assignments.
+6. Once registration closes, click **Generate qualifying rounds** and confirm the headcount. This locks the roster size and creates the table assignments.
 
 After generating rounds, names can be corrected on their original lines. **Do not reorder the lines:** results belong to those roster slots. To add or remove players after generation, export a backup and use **Players → Start new event**, then edit the roster and regenerate. Starting a new event clears the schedule and results.
 
@@ -27,15 +27,17 @@ See [the registration guide](docs/registration.md) for a short event-day checkli
 
 ## Tournament format
 
-- Three qualifying rounds with changing partners and no repeated teammates. The scheduler minimizes repeated tablemates.
+- At least four played qualifying matches per player, with changing partners and no repeated teammates. The scheduler minimizes repeated tablemates.
 - Each table has two teams of two. With an uneven headcount, byes rotate as evenly as possible. With more players than seats, rounds are split into waves.
 - A match ends when one team reaches 100 or more. Both teammates receive their team's entire final score, including points above 100.
 - Standings use **win percentage**, then **average points per played match**, then a **saved random draw**. Byes count as neither matches nor points.
-- With no byes, each player plays three qualifying matches. With rotating byes, some players may play two.
+- With no byes, four rounds give each player four matches. With rotating byes, the scheduler adds enough rounds for everyone to play at least four matches; some players may play five.
 - The top eight individual players become four teams. Semifinals are **(1+8) vs (4+5)** and **(2+7) vs (3+6)**.
 - Winners meet in the final with the same partners. Playoff scores start at zero.
 
-The progress counter shows completed qualifying **rounds out of three**, not the total number of table games.
+The progress counter shows completed qualifying **rounds out of the scheduled total**, not the total number of table games. For 24 players the total is four rounds. Uneven headcounts usually need five rounds; 11 players need six.
+
+Older three-round events remain loadable. Select **Add remaining qualifying rounds** to append matches while keeping existing qualifying pairings and scores. Extending downloads a backup and clears any old playoff bracket after confirmation. New playoffs cannot be created until every player has played at least four qualifying matches.
 
 ## Scores, TV display, and backups
 

@@ -25,7 +25,7 @@ c.setFillColor(colors.HexColor('#EEF1F3'))
 c.roundRect(42, 665, 528, 29, 4, fill=1, stroke=0)
 c.setFillColor(ink)
 c.setFont('Helvetica-Bold', 10)
-c.drawCentredString(306, 676, '3 QUALIFYING ROUNDS   /   ROTATING PARTNERS   /   TOP 8 PLAYERS ADVANCE')
+c.drawCentredString(306, 676, '4+ MATCHES PER PLAYER   /   ROTATING PARTNERS   /   TOP 8 PLAYERS ADVANCE')
 
 body = ParagraphStyle('body', fontName='Helvetica', fontSize=10.5, leading=14.2,
                       textColor=ink, spaceAfter=0)
@@ -47,12 +47,12 @@ def heading(text):
 
 heading('1  QUALIFYING PHASE')
 para('The planned field is 24 players on six tables; the final player count may vary. Each table '
-     'has two teams of two. Play three qualifying rounds. If more matches are needed than tables '
+     'has two teams of two. Every player must play at least four qualifying matches. If more matches are needed than tables '
      'available, finish all waves of a round before starting the next round.')
 para('Partners rotate each round. The organizer assigns a randomized, prepared schedule with '
      'no repeated teammates and as few repeated tablemates as possible. If the player count is not '
      'a multiple of four, rotate byes as evenly as possible. A bye earns no win, loss, or points and '
-     'is not a played match. Some players may play two qualifying matches while others play three.')
+     'is not a played match. Add enough rounds for everyone to play at least four matches; some may play five. With 24 players, play four qualifying rounds.')
 
 heading('2  MATCH SCORING')
 para('Play successive hands until one team reaches <b>100 or more points</b>. That team wins the match. '
@@ -64,7 +64,7 @@ para('<b>Example:</b> A 108-75 result gives each winner <b>1 win + 108 points</b
      '<b>0 wins + 75 points</b>. Both teams confirm the final score before it is reported to the organizer.')
 
 heading('3  RANKING & QUALIFICATION')
-para('After all three rounds are complete, rank players by: <b>(1) highest win percentage</b> '
+para('After all scheduled rounds are complete and everyone has played at least four matches, rank players by: <b>(1) highest win percentage</b> '
      '(wins divided by matches played); <b>(2) highest average points</b> (total points divided by '
      'matches played); <b>(3) public random draw</b> if both are tied. Compare full values, not rounded '
      'display numbers. With equal matches played, this is equivalent to wins, then total points.')

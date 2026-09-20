@@ -30,11 +30,11 @@ That is a formatting example; the event needs at least eight players. The maximu
 
 1. Count the players physically present and check that the saved list matches.
 2. Check the available table count.
-3. Click **Generate 3 rounds** and review the confirmation.
+3. Click **Generate qualifying rounds** and review the confirmation.
 4. Print all rounds from **Qualifying rounds** and print the current rules from **Rules & help**.
 5. Announce who has a bye and where each player sits for round one.
 
-You do not need a multiple of four players. The app assigns rotating byes and ranks by win percentage, then average points. A bye earns no win, loss, or points. With six tables and more than 24 players, a round may need more than one wave of games.
+You do not need a multiple of four players. The app assigns rotating byes and ranks by win percentage, then average points. A bye earns no win, loss, or points and does not count toward the four-match minimum. Extra rounds ensure everyone plays at least four matches. With six tables and more than 24 players, a round may need more than one wave of games.
 
 ## Corrections and late arrivals
 

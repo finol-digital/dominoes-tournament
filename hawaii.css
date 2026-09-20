@@ -27,3 +27,5 @@ dialog{background:#fff9eb;box-shadow:0 15px 70px #07373e66}dialog::backdrop{back
 @media(max-width:600px){.brand h1,.tv .brand h1{font-size:36px}.brand{gap:16px}}
 @media print{.brand h1,.tv .brand h1{font-size:28px}}
 @media print{.island-art,header:after,.tile:after,.stat:after,.layout aside .panel:first-child:after{display:none!important}body,header,.panel,.match,.champion,.layout aside .panel:first-child{background:white!important;box-shadow:none!important;color:black!important}h1,h2,h3,.panel h2,.panel h3{color:black!important;text-shadow:none!important}.brand .eyebrow,.brand .sub{color:#333!important}.notice{background:white!important;color:black!important}tbody tr:nth-child(even){background:white!important}}
+
+.roundnav{flex-wrap:wrap}
