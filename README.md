@@ -27,17 +27,17 @@ See [the registration guide](docs/registration.md) for a short event-day checkli
 
 ## Tournament format
 
-- At least four played qualifying matches per player, with changing partners and no repeated teammates. The scheduler minimizes repeated tablemates.
+- Exactly four played qualifying matches per player, with changing partners and no repeated teammates. The scheduler minimizes repeated tablemates.
 - Each table has two teams of two. With an uneven headcount, byes rotate as evenly as possible. With more players than seats, rounds are split into waves.
 - A match ends when one team reaches 100 or more. Both teammates receive their team's entire final score, including points above 100.
 - Standings use **win percentage**, then **average points per played match**, then a **saved random draw**. Byes count as neither matches nor points.
-- With no byes, four rounds give each player four matches. With rotating byes, the scheduler adds enough rounds for everyone to play at least four matches; some players may play five.
+- Every player plays exactly four qualifying matches. Players who reach four are not scheduled again. The last round may use fewer tables, only for players still needing a game.
 - The top eight individual players become four teams. Semifinals are **(1+8) vs (4+5)** and **(2+7) vs (3+6)**.
 - Winners meet in the final with the same partners. Playoff scores start at zero.
 
 The progress counter shows completed qualifying **rounds out of the scheduled total**, not the total number of table games. For 24 players the total is four rounds. Uneven headcounts usually need five rounds; 11 players need six.
 
-Older three-round events remain loadable. Select **Add remaining qualifying rounds** to append matches while keeping existing qualifying pairings and scores. Extending downloads a backup and clears any old playoff bracket after confirmation. New playoffs cannot be created until every player has played at least four qualifying matches.
+Older events remain loadable. Select **Rebalance remaining matches** to replace unplayed pairings while preserving recorded matches and scores. Reprint the schedule afterward. Rebalancing downloads a backup and clears any old playoff bracket after confirmation. If results already include more than four games for a player, or the remaining games cannot form four-player tables, the app keeps the event unchanged and asks you to export a backup and start a new event. New playoffs require exactly four played qualifying games per player.
 
 ## Scores, TV display, and backups
 

@@ -22,9 +22,10 @@ name list after play begins: results belong to the corresponding roster slots.
 PLAY AND SCORE
 Every match is a race to 100 or more. Enter the final score for both teams.
 Overshoots count in full; both teammates receive the entire team score.
-Each round has floor(players / 4) matches. Any remaining players receive byes.
-Byes rotate evenly and do not count toward the four-match minimum. Extra rounds ensure
-every player plays at least four qualifying matches. Standings use win percentage,
+Rounds use up to floor(players / 4) matches. Players not scheduled sit out.
+The final round only includes players who still need games; nobody plays a fifth.
+Byes rotate evenly and do not count toward the four-game total. Extra rounds ensure
+every player plays exactly four qualifying matches. Standings use win percentage,
 then average points per played match.
 If more matches are needed than tables available, play the numbered waves in order.
 Finish every match in one round before starting the next.
@@ -40,7 +41,7 @@ If direct-file tabs do not sync, export a backup, use Open Tracker.cmd, restore 
 backup there, and open the TV view from that version.
 
 PLAYOFFS
-Finish all scheduled qualifying rounds. Every player must have played at least four matches. Review all results in Standings.
+Finish all scheduled qualifying rounds. Every player must have played exactly four matches. Review all results in Standings.
 Publicly click Draw ties & create playoffs. Exact ties are randomly resolved once;
 the saved draw record appears in Standings. Refreshing never repeats the draw.
 Top eight: semifinal A is (1+8) vs (4+5); semifinal B is (2+7) vs (3+6).
@@ -57,10 +58,12 @@ CSV exports are for viewing standings; they cannot restore an event.
 Do not use private/incognito browsing for the event or clear browser site data.
 
 RULES UPDATE
-The Rules & help screen is the current version: at least four played matches per
-player, rotating byes, and percentage/average ranking. Older three-round events can
-use Add remaining qualifying rounds to append matches while preserving earlier
-qualifying pairings and results. Extending clears any old playoffs after confirmation.
+The Rules & help screen is the current version: exactly four played matches per
+player, rotating byes, and percentage/average ranking. Older events can use
+Rebalance remaining matches to rebuild unplayed pairings and keep recorded scores.
+Reprint the schedule afterward. Rebalancing backs up the event and clears old playoffs
+after confirmation. If recorded results cannot fit four games each, the event is
+kept unchanged; export a backup and start a new event to use the new format.
 The host must still announce the specific domino variant and house gameplay rules.
 
 FILES
